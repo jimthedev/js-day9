@@ -1,0 +1,36 @@
+lot {
+  display:block;
+  max-width: 720px;
+  background: burlywood;
+  margin: 20px auto;
+}
+
+lot > description {
+  display:block;
+  padding: 20px;
+  font-weight: bold;
+  border-bottom: 2px midnightblue solid;
+}
+
+car, vehicle {
+  display: block;
+  padding: 10px 20px;
+}
+
+button {
+  border-radius: 10px;
+  color: whitesmoke;
+  border: 2px tomato solid;
+  background-color: tomato;
+}
+button:hover {
+  background-color: lightsalmon;
+  cursor: pointer;
+}
+
+/* remember to define focus styles! */
+button:focus {
+outline: 0;
+background-color: whitesmoke;
+color: tomato;
+}
