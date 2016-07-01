@@ -34,3 +34,33 @@ outline: 0;
 background-color: whitesmoke;
 color: tomato;
 }
+
+button:disabled {
+  background-color: lightslategray;
+  color: lightslategray;
+  border: 2px lightslategray solid;
+  cursor: default;
+}
+
+cart {
+  font-family: sans-serif;
+  display: block;
+  border-radius: 100px;
+  text-align:center;
+  border: 5px cornflowerblue solid;
+  max-width: 720px;
+  min-height: 100px;
+  margin: 0 auto;
+  background-image: url('sogoooood.gif');
+  background-position-y: -100px;
+}
+
+items item {
+  background-color: whitesmoke;
+  opacity: 0.7;
+  display:block;
+  max-width: 500px;
+  margin: 0 auto;
+  border-bottom: 1px solid #333;
+
+}
